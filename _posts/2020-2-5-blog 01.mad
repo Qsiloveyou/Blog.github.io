@@ -1,0 +1,30 @@
+#虚拟机以及Linux的安装
+##Virtual machine
+常见的虚拟机软件主要有VMware Workstaion(VM),VirtualBox,Microsoft Virtual PC等，其中VMware市场占有率最高。
+###VMware的下载和安装
+VMware 有两个版本，分别是 VMware Workstation Pro 和 VMware Workstation Player。
+Player 是免费版本，只能用于非商业用途，适合个人学习。
+Pro 是商业版本，功能最强大，付费以后才能使用。
+
+VMware Workstation Pro 下载地址http://download3.vmware.com/software/wkst/file/VMware-workstation-full-15.0.2-10952284.exe（建议复制链接到迅雷下载）
+VMware Workstation Pro 15永久许可证激活密钥（任选其一）
+GU14H-A9Z97-080TP-6WW5C-YY8W2
+VY390-D1F1K-488RQ-JFNXV-XVHTA
+ZZ71K-2NZE5-089PY-3NYQG-Q22Y0
+GZ1DU-8PY80-484YZ-M4PGC-YAKD2
+VU74H-8GY45-084RZ-TGNZC-P68C0
+AU3R2-6TXDJ-4841Y-W4MNE-ZCAX6
+YF18H-8QF8M-4883Y-PZYEG-Q7UW0
+CZ31H-ATW0M-M8DDY-VYXZZ-Q7AC0
+
+VMware 对计算机的硬件配置要求比较高，配置低了虚拟机会很慢，甚至不能运行。理论上，配置越高越好，现在主流的计算机配置都可以达到运行 VMware 的要求。千万不要用多年珍藏的老古董来运行 VMware，我保证你将会失去耐心。
+
+下载完成之后进行安装，和其它软件无异不再复述。
+
+###Linux的安装
+建议初学者提前下载好 CenOS 映像系统，给大家提供 CentOS 6.5 映像文件迅雷下载地址（点击链接或复制链接到迅雷即可开始下载）：
+32 位 CentOS 6.5 映像下载：http://archive.kernel.org/centos-vault/6.5/isos/i386/CentOS-6.5-i386-bin-DVD1.iso
+64 位 CentOS 6.5 映像下载：http://archive.kernel.org/centos-vault/6.5/isos/x86_64/CentOS-6.5-x86_64-bin-DVD1.iso
+下载完成之后，打开安装好的VMware
+首先创建新的虚拟机，选择安装程序光盘映像文件（iso）即选择之前准备好的文件，之后的步骤直接下一步即可。
+当你创建完成后会打开虚拟机，进行安装。安装完成输入自己的用户名和密码登录即可。
